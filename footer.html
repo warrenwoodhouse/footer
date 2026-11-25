@@ -264,7 +264,12 @@ customElements.define('site-footer', SiteFooter);</pre>
     </main>
 
     <!-- Define the Web Component for the Live Demo Page -->
-    <script>
+    /**
+ * Site Footer Plugin
+ * Author: Warren Woodhouse (T-Codes)
+ * Documentation & Embed Code: warrenwoodhouse.github.io/footer/embed
+ */
+<script>
         class SiteFooter extends HTMLElement {
             connectedCallback() {
                 this.attachShadow({ mode: 'open' });
@@ -301,64 +306,60 @@ customElements.define('site-footer', SiteFooter);</pre>
                             color: #ffffff;
                         }
                     </style>
-                    <footer class="bg-[#0b0f19] text-gray-400 py-12 px-6 border-t border-gray-800/80">
-                        <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                    <footer>
+                        <div>
                             <!-- Column 1: Explore -->
                             <div>
                                 <h3 class="footer-heading">Explore</h3>
-                                <ul class="space-y-1">
-                                    <li><a href="#" class="footer-link">MapGenie+ Membership</a></li>
-                                    <li><a href="#" class="footer-link">My Account</a></li>
-                                    <li><a href="#" class="footer-link">FAQs</a></li>
-                                    <li><a href="#" class="footer-link">About Us</a></li>
-                                    <li><a href="#" class="footer-link">Contact Us</a></li>
+                                <ul>
+                                    <li><a href="https://warrenwoodhouse.blogspot.com/" class="footer-link">Homepage</a></li>
+                                    <li><a href="https://warrenwoodhouse.blogspot.com/" class="footer-link">Blog</a></li>
+                                    <li><a href="https://warrenwoodhouse.blogspot.com/about" class="footer-link">About</a></li>
+                                    <li><a href="https://warrenwoodhouse.blogspot.com/contact" class="footer-link">Contact</a></li>
                                 </ul>
                             </div>
                             
                             <!-- Column 2: Community & Legal -->
                             <div>
                                 <h3 class="footer-heading">Community</h3>
-                                <ul class="space-y-1 mb-6">
-                                    <li><a href="#" class="footer-link">Reddit</a></li>
-                                    <li><a href="#" class="footer-link">X / Twitter</a></li>
+                                <ul>
+                                    <li><a href="https://reddit.com/r/warrenwoodhouse" class="footer-link">Reddit</a></li>
+                                    <li><a href="https://warrenwoodhouse.bsky.social/" class="footer-link">Blue Sky</a></li>
                                 </ul>
                                 
                                 <h3 class="footer-heading">Legal</h3>
-                                <ul class="space-y-1">
-                                    <li><a href="#" class="footer-link">Privacy Policy</a></li>
-                                    <li><a href="#" class="footer-link">Terms of Use</a></li>
-                                    <li><a href="#" class="footer-link">Accessibility</a></li>
-                                    <li><a href="#" class="footer-link">Do Not Sell My Info</a></li>
-                                    <li><a href="#" class="footer-link">AdChoices</a></li>
+                                <ul>
+                                    <li><a href="https://warrenwoodhouse.blogspot.com/privacy" class="footer-link">Privacy Policy</a></li>
+                                    <li><a href="https://warrenwoodhouse.blogspot.com/terms" class="footer-link">Terms & Conditions</a></li>
+                                    <li><a href="https://warrenwoodhouse.blogspot.com/license" class="footer-link">License Agreement</a></li>
                                 </ul>
                             </div>
 
-                            <!-- Column 3 & 4: IGN Entertainment (2 sub-columns) -->
-                            <div class="lg:col-span-2">
-                                <h3 class="footer-heading">IGN Entertainment</h3>
-                                <div class="grid grid-cols-2 gap-x-8 gap-y-1">
+                            <!-- Column 3 & 4: Brands (2 sub-columns) -->
+                            <div>
+                                <h3 class="footer-heading">Warren Woodhouse Company</h3>
+                                <div>
                                     <div>
-                                        <a href="#" class="footer-link">Dicebreaker</a>
-                                        <a href="#" class="footer-link">GamesIndustry.biz</a>
-                                        <a href="#" class="footer-link">HowLongToBeat</a>
-                                        <a href="#" class="footer-link">Humble Bundle</a>
-                                        <a href="#" class="footer-link">IGN</a>
-                                        <a href="#" class="footer-link">Maxroll</a>
+                                        <a href="https://warrenwoodhouse.github.io/maps" class="footer-link">Warren Maps</a>
+                                        <a href="https://warrenwoodhouse.blogspot.com/woodhouseproductions" class="footer-link">WP Woodhouse Productions</a>
+                                        <a href="https://warrenwoodhouse.github.io/games" class="footer-link">GotGames Interactive</a>
+                                        <a href="https://warrenwoodhouse.blogspot.com/realfilminglocations" class="footer-link">Real Filming Locations</a>
+                                        <a href="https://warrenwoodhouse.github.io/notes" class="footer-link">Warren Notes App</a>
+                                        <a href="https://warrenwoodhouse.github.io/feedmaker" class="footer-link">FeedMaker</a>
                                     </div>
                                     <div>
-                                        <a href="#" class="footer-link">Nintendo Life</a>
-                                        <a href="#" class="footer-link">Pure Xbox</a>
-                                        <a href="#" class="footer-link">Push Square</a>
-                                        <a href="#" class="footer-link">Rock Paper Shotgun</a>
-                                        <a href="#" class="footer-link">Time Extension</a>
-                                        <a href="#" class="footer-link">VG247</a>
+                                        <a href="https://warrenwoodhouse.blogspot.com/mods" class="footer-link">Game Mods</a>
+                                        <a href="https://warrenwoodhouse.blogspot.com/guides" class="footer-link">Warren Guides</a>
+                                        <a href="https://warrenwoodhouse.blogspot.com/798" class="footer-link">798</a>
+                                        <a href="https://warrenwoodhouse.blogspot.com/fonts" class="footer-link">Ænigmate Productions</a>
+                                        <a href="https://warrenwoodhouse.blogspot.com/codes" class="footer-link">T-Codes</a>
+                                        <a href="https://warrenwoodhouse.blogspot.com/products" class="footer-link">More >>>></a>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="max-w-7xl mx-auto mt-10 pt-6 border-t border-gray-800/60 text-xs text-gray-500 flex flex-col sm:flex-row justify-between items-center">
-                            <p>&copy; ${new Date().getFullYear()} IGN Entertainment & affiliates. All rights reserved.</p>
-                            <p class="mt-2 sm:mt-0">Embeddable Web Component Widget v1.0.0</p>
+                        <div>
+                            <p>&copy; ${new Date().getFullYear()} <a href="https://warrenwoodhouse.blogspot.com/">Warren Woodhouse</a>. All Rights Reserved.</p>
                         </div>
                     </footer>
                 `;
