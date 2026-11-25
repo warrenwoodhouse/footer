@@ -1,8 +1,6 @@
-/**
- * Site Footer Plugin
- * Author: Warren Woodhouse (T-Codes)
- * Documentation & Embed Code: warrenwoodhouse.github.io/footer/embed
- */
+<!-- Footer Plugin -->
+<!-- Author: Warren Woodhouse (T-Codes) -->
+<!-- Documentation & Embed Code: warrenwoodhouse.github.io/footer/embed -->
 <script>
         class SiteFooter extends HTMLElement {
             connectedCallback() {
