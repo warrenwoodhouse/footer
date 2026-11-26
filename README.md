@@ -6,12 +6,12 @@ Place this code anywhere on the `<body>` section of your HTML page.
 
 ```
     <!-- Footer Plugin -->
-    <!-- Author: Warren Woodhouse -->
+    <!-- Author: Warren Woodhouse (T-Codes) -->
     <!-- Documentation: warrenwoodhouse.github.io/footer -->
     <script src="https://warrenwoodhouse.github.io/footer/plugin.js"></script>
     
     <!-- Footer -->
-    <sitefooter></sitefooter>
+    <site-footer></site-footer>
 ```
 
 # Pages
