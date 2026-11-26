@@ -137,7 +137,7 @@
                 `;
             }
         }
-        if (!customElements.get('sitefooter')) {
-            customElements.define('sitefooter', SiteFooter);
+        if (!customElements.get('site-footer')) {
+            customElements.define('site-footer', SiteFooter);
         }
     </script>
