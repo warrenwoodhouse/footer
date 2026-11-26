@@ -1,8 +1,4 @@
-<!-- Footer Plugin -->
-<!-- Author: Warren Woodhouse (T-Codes) -->
-<!-- Documentation & Embed Code: warrenwoodhouse.github.io/footer/embed -->
-<script>
-        class SiteFooter extends HTMLElement {
+     class SiteFooter extends HTMLElement {
             connectedCallback() {
                 this.attachShadow({ mode: 'open' });
                 this.render();
@@ -140,4 +136,3 @@
         if (!customElements.get('site-footer')) {
             customElements.define('site-footer', SiteFooter);
         }
-    </script>
