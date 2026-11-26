@@ -15,9 +15,9 @@ Place this code anywhere on the `<body>` section of your HTML page.
 ```
 
 # Pages
-* [Demo](demo)
-* [Customise your Plugin](plugin)
-* [License Agreement](LICENSE.md)
+* [Demo](https://warrenwoodhouse.github.io/footer/demo)
+* [Customise your Plugin](https://warrenwoodhouse.github.io/footer/plugin)
+* [License Agreement](https://warrenwoodhouse.blogspot.com/license)
 
 # copyright
 &copy;2026-present [Warren Woodhouse](https://warrenwoodhouse.blogspot.com/).
